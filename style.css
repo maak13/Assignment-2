@@ -17,12 +17,12 @@ nav{
     margin-top: 30px;
 }
 .influencer-text{
-    margin-left: 20px;
+    margin-left: 30px;
     font-size: larger;
 }
 /* First blog and section  */
 .button-text{
-    background-color: coral;
+    background-color:crimson;
     border-radius: 10px;
     padding: 10px 10px;
     font-size: 15px;
@@ -43,13 +43,13 @@ nav{
 }
 .first-blog{
     display: flex;
+    flex-direction: row;
     width: 90%;
-    margin-left: 20px;
+    margin-left: 30px;
     margin-bottom: 100px;
 }
-.first-gear{
-    width: 300px;
-    margin-left: 500px;
+.intro{
+    margin-right: 20px;
 }
 .first-gear:hover{
     transform:scale(1.25, 1.25);
@@ -64,7 +64,6 @@ hr{
 }
 .comapany-logos{
     display: flex;
-    
     justify-content: center;
 }
 .logos{
@@ -152,11 +151,90 @@ hr{
     transform: scale(1.5);
     transition: cubic-bezier(0.39, 0.575, 0.565, 21);
 }
-/* footer section starts  */
+/*---------------footer section starts------------
+--------------------------  */
 footer{
     text-align: center;
     background-color: indianred;
     margin-top: 100px;
     padding-top: 50px;
     padding-bottom: 50px;
+}
+/* -----------------Adding Media quaries ------------------------  */
+/*-----------------Mobile devices  --------------------------*/
+
+@media only screen and (max-width: 576px) {
+
+    .influencer-text{
+        text-align: center;
+    }
+    .button-text{
+        margin-left: 150px;
+        text-align: center;
+    }
+    .top-bar {
+        display: flex;
+        flex-direction: row;
+        margin-right: 50px;
+    }
+    .first-gear{
+        margin-top: 50px;
+        margin-left: 80px;
+        width: 50%;
+
+    }
+    .first-blog{
+        flex-direction: column;
+    }
+    .collection{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .bonus-section{
+        width: 100%;
+        justify-content: center;
+    }
+    .extra-img {
+        width: 80%;
+        justify-content: center;
+    }
+    .img-info{
+        width: 60%;
+    }
+    .comapany-logos{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .product{
+        width: 100%;
+    }
+}
+/* ----------------For tablet devices ------------------ */
+@media only screen and (max-width:768px) and (min-width:576px) {
+    .top-bar{
+        justify-content: center;
+        margin-right: 150px;
+    }
+    .influencer-text{
+        text-align: center;
+    }
+    .first-blog{
+        display: flex;
+        flex-direction: row;
+    }
+    .comapany-logos{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .collection{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .product{
+        width: 90%;
+        margin-right: 5px;   
+    }
+    .extra-img {
+        width: 80%;
+        justify-content: center;
+    }
+
 }
