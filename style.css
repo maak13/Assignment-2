@@ -13,15 +13,33 @@ nav{
     justify-content:right;
     margin-bottom: 50px;
 }
+.top-bar{
+    margin-top: 30px;
+}
 .influencer-text{
     margin-left: 20px;
+    font-size: larger;
 }
 /* First blog and section  */
 .button-text{
-    background-color: tomato;
+    background-color: coral;
     border-radius: 10px;
     padding: 10px 10px;
     font-size: 15px;
+}
+.button-text:hover{
+    background-color:teal;
+    color: white;
+}
+.button-text:hover>.fas.fa-arrow-right{
+    color: yellow;
+    position: relative;
+    transition: width 2s ease, height 2s, transform 0.5s;
+    transform: rotateZ(-90deg)
+}
+.fas.fa-arrow-right:hover{
+    transform: rotateZ(-90deg)
+
 }
 .first-blog{
     display: flex;
@@ -32,6 +50,10 @@ nav{
 .first-gear{
     width: 300px;
     margin-left: 500px;
+}
+.first-gear:hover{
+    transform:scale(1.25, 1.25);
+    transition: transform 1s;
 }
 /* Company logos section  */
 hr{
@@ -93,18 +115,43 @@ hr{
     text-align: right;
     margin-right: 18%;
     color: indianred;
+    margin-bottom: 50px;
 }
 /* Product collection part ends  */
 /* extra section starts  */
 .bonus-section{
-    background-color: bisque;
+    background-color:palegoldenrod;
     width: 100%;
     display: inline-block;
     text-align: center;
-    margin-right: 50px;
-    padding-left: ;
+    margin-right: 50px 0 100px 0;
+    display: flex;
+    justify-content: center;
 }
-
+.extra-img{
+    margin-left: 50px;
+    width: 400px;
+}
+.img-info{
+    border-radius: 10px;
+    padding: 15px;
+    border: 2px solid palegreen;
+    box-shadow: 0 0px 10px 1px black;
+    width: 30%;
+}
+.submission{
+    margin-right: 60px;
+    margin-top: 100px;
+    
+}
+.submit{
+    margin-top: 15px;
+}
+.submit:hover{
+    background-color: lightsalmon;
+    transform: scale(1.5);
+    transition: cubic-bezier(0.39, 0.575, 0.565, 21);
+}
 /* footer section starts  */
 footer{
     text-align: center;
