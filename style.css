@@ -34,6 +34,9 @@ nav{
 hr{
     width: 80%;
 }
+#bottom-hr{
+    margin-bottom: 100px;
+}
 .comapany-logos{
     display: flex;
     
@@ -42,4 +45,44 @@ hr{
 .logos{
     margin-left: 50px;
 }
+/* Product listing  */
 
+.containers{
+    align-items: center;
+    justify-content: center;
+}
+.section-title{
+    text-align: Center;
+    margin-bottom: 50px;
+}
+.product{
+    margin: 10px 10px 10px 10px;
+    border-radius: 5px;
+    padding: 5px 5px 15px 10px;
+    box-shadow: 5px 5px 5px 5px bisque;
+    width: 70%;
+    height: 90%;
+    border-radius: 5px;
+}
+.course-info{
+    color: coral;
+}
+.extra-info{
+    color: gray;
+}
+.course-rating{
+    display: flex;
+    align-items: center;    
+}
+.rating{
+    color: gray;
+    font-weight:800;
+    margin-left: 10px;
+}
+.collection{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
