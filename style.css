@@ -13,3 +13,33 @@ nav{
 .influencer-text{
     margin-top: 50px;
 }
+/* First blog and section  */
+.button-text{
+    background-color: tomato;
+    border-radius: 10px;
+    padding: 10px 10px;
+    font-size: 15px;
+}
+.first-blog{
+    display: flex;
+    width: 90%;
+    margin-left: 20px;
+    margin-bottom: 100px;
+}
+.first-gear{
+    width: 300px;
+    margin-left: 500px;
+}
+/* Company logos section  */
+hr{
+    width: 80%;
+}
+.comapany-logos{
+    display: flex;
+    
+    justify-content: center;
+}
+.logos{
+    margin-left: 50px;
+}
+
