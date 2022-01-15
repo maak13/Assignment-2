@@ -1,5 +1,8 @@
+/* body text  */
+body{
+    font-family: 'Poppins', sans-serif;
+}
 /* style Top bar  */
-
 nav a{
     text-decoration: none;
     margin-right: 20px;
@@ -11,7 +14,7 @@ nav{
     margin-bottom: 50px;
 }
 .influencer-text{
-    margin-top: 50px;
+    margin-left: 20px;
 }
 /* First blog and section  */
 .button-text{
@@ -85,4 +88,28 @@ hr{
     justify-content: center;
     margin-left: 100px;
     margin-right: 100px;
+}
+#see-more{
+    text-align: right;
+    margin-right: 18%;
+    color: indianred;
+}
+/* Product collection part ends  */
+/* extra section starts  */
+.bonus-section{
+    background-color: bisque;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin-right: 50px;
+    padding-left: ;
+}
+
+/* footer section starts  */
+footer{
+    text-align: center;
+    background-color: indianred;
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
